@@ -131,7 +131,11 @@ section p {
   color: #38bdf8;
   text-decoration: none;
   font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap:8px;
 }
+
 .footer{
   text-align: center;
   padding: 30px;
