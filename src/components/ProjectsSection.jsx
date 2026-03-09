@@ -41,8 +41,8 @@ function ProjectsSection() {
   </div>
 
   <div className="project-links">
-    <a href="#">Live</a>
-    <a href="#">GitHub</a>
+    <a href="https://employee-data-manager-chi.vercel.app/">Live</a>
+    <a href="https://github.com/sakshideshmukh-ai/employee-data-manager">GitHub</a>
   </div>
 </div>
 

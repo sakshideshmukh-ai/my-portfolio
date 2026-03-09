@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding-top: 80px;
   font-family: Arial, Helvetica, sans-serif;
-  background: #0f172a;
+  background: linear-gradient(180deg, #0f172a, #020617);
   color: white;
 }
 
@@ -48,8 +48,13 @@ section p {
   width: 100%;
   background: #0f172a;
   z-index: 1000;
+  transition: all 0.3s ease;
 }
 
+.navbar-scrolled {
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(10px);
+}
 .nav-container {
   max-width: 1100px;
   margin: auto;
@@ -87,8 +92,8 @@ section p {
   transition: transform 0.3s ease,box-shadow 0.3s ease;
 }
 .project-card:hover{
-  transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(56,189,248,0.3);
 }
 
 .project-card h3 {
@@ -132,4 +137,17 @@ section p {
   padding: 30px;
   background: #0f172a;
   color: #94a3b8;
+}
+
+#intro h2{
+  margin-top: 10px;
+  font-weight: 400;
+  color:#38bdf8;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 15px;
+    font-size: 14px;
+  }
 }

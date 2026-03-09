@@ -4,9 +4,9 @@ function ContactSection(){
             <h2>Contact</h2>
             <p>If you'd like to work together or have any questions,feel free to reach out.</p>
             <div className="contact-links">
-                <a href="Gmail:d1sakshi@gmail.com">Email</a>
-                <a href="#">Github</a>
-                <a href="#">LinkedIn</a>
+                <a href="mailto:d1sakshi@gmail.com">Email</a>
+                <a href="https://github.com/sakshideshmukh-ai">Github</a>
+                <a href="https://linkedin.com/in/sakshi-fullstack">LinkedIn</a>
             </div>
         </section>
     

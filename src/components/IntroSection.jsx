@@ -1,20 +1,32 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import gsap from "gsap";
+import Typed from "typed.js";
 
 function IntroSection() {
+  const typedRef = useRef(null);
+
   useEffect(() => {
-    gsap.fromTo(
-      ".intro-title",
-      { y: -50, opacity: 0 },
-      { y: 0, opacity: 1, duration: 1.2 }
-    );
+    const typed = new Typed(typedRef.current, {
+      strings: [
+        "Frontend Developer",
+        "React Developer",
+        "JavaScript Enthusiast"
+      ],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+
+    return () => typed.destroy();
   }, []);
 
   return (
     <section id="intro">
-      <h1 className="intro-title">Hello, I'm Sakshi 👋</h1>
-      <p>Aspiring Full Stack Developer</p>
-      <></>
+      <h1>Hello, I'm Sakshi 👋</h1>
+
+      <h2>
+        <span ref={typedRef}></span>
+      </h2>
     </section>
   );
 }
