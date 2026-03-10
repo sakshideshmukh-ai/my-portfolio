@@ -23,7 +23,7 @@ function IntroSection() {
   return (
     <section id="intro">
       <h1>Hello, I'm Sakshi 👋</h1>
-
+  
       <h2>
         <span ref={typedRef}></span>
       </h2>

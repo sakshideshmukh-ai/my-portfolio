@@ -109,7 +109,12 @@ section p {
   color: #38bdf8;
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.3s ease;
 }
+.project-links a:hover {
+  color:#7dd3fc;
+}
+
 .project-tech {
   margin-top: 10px;
 }
@@ -148,6 +153,8 @@ section p {
   font-weight: 400;
   color:#38bdf8;
 }
+
+
 
 @media (max-width: 768px) {
   .nav-links {
