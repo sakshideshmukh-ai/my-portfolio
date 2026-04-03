@@ -60,6 +60,27 @@ function ProjectsSection() {
     <a href="https://github.com/sakshideshmukh-ai/task-manager">GitHub</a>
   </div>
 </div>
+        <div className="project-card">
+  <h3>DevScope – AI Resume & Portfolio Analyzer</h3>
+
+  <p>
+    DevScope is an AI-powered full-stack application that analyzes
+    developer resumes and portfolios to identify strengths,
+    skill gaps, and improvement suggestions.
+  </p>
+
+  <div className="project-tech">
+    <span>Next.js</span>
+    <span>MongoDB</span>
+    <span>NextAuth</span>
+    <span>OpenAI API</span>
+  </div>
+
+  <div className="project-links">
+    <a href="https://devscope-beige.vercel.app/" >Live</a>
+    <a href="https://github.com/sakshideshmukh-ai/devscope">GitHub</a>
+  </div>
+</div>
 
       </div>
     </section>
